@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Coordinate Parser</title>
+		<!-- Bootstrap CSS via CDN -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<style> body {padding: 20px;} </style>
+	</head>
+	<body>
+
+	<div class="container">
+		<h2>Coordinate Parser</h2>
+		<div class="form-group">
+			<label for="coordinatesTextarea">Paste Coordinates:</label>
+			<textarea class="form-control" id="coordinatesTextarea" rows="4" placeholder="Enter coordinates in this formats:
+14.594500, -90.517721
+14&deg;35&apos;40.2&quot;N 90&deg;31&apos;03.8&quot;W
+N 14&deg; 35&apos; 40.2&quot; W 90&deg; 31&apos; 03.8&quot;"></textarea>
+		</div>
+
+		<div class="result">
+			<h3>Coordinate Formats:</h3>
+			<pre id="decimalOutput"></pre>
+			<pre id="dmscOutput"></pre>
+			<pre id="cdmsOutput"></pre>
+		</div>
+	</div>
+
+	<!-- JS -->
+	<script src="main.js"></script>
+
+	<footer><p>&copy; 2023 <a href="https://rodrigopolo.com">Rodrigo Polo</a> | <a href="https://github.com/rodrigopolo/CoordinateParser">Source</a></p></footer>
+	</body>
+</html>
+
+
